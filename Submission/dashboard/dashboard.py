@@ -107,7 +107,7 @@ def plot_casual_vs_registered(df):
 
     # Menambahkan label dan judul untuk bar plot
     ax1.set_ylabel('Total Users')
-    ax1.set_title('Total Pengguna Casual vs Registered', fontsize=20)
+    ax1.set_title('Total Penyewa Casual vs Registered', fontsize=20)
 
     # Donut chart untuk proporsi pengguna
     ax2 = axes[1]
