@@ -461,7 +461,7 @@ with st.expander("Kesimpulan"):
 
 
 st.header('D. Trend Persewaan Sepeda Berdasarkan Hari dan Jam')
-st.subheader('3. Trend Persewaan Berdasarkan Hari')
+st.subheader('1. Trend Persewaan Berdasarkan Hari')
 plot_total_bike_rentals_by_weekday(all_data)
 
 with st.expander("Kesimpulan"):
@@ -472,7 +472,7 @@ with st.expander("Kesimpulan"):
     """)
 
 
-st.subheader('3. Trend Persewaan Berdasarkan Jam (Peak Hour)')
+st.subheader('2. Trend Persewaan Berdasarkan Jam (Peak Hour)')
 plot_total_bike_rentals_by_hour(all_data)
 with st.expander("Kesimpulan"):
     st.markdown("""
