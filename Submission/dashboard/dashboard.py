@@ -29,7 +29,7 @@ import streamlit as st
 
 # Sidebar components with header and centered image
 with st.sidebar:
-    st.markdown("<h1 style='text-align: center;'>Dashboard</h1>", unsafe_allow_html=True)  # Centered and larger header
+    st.markdown("<h1 style='text-align: center; font-size: 40px;'>Dashboard</h1>", unsafe_allow_html=True)  # Bigger centered header
     
     st.image('https://github.com/imanuelsteven/Bike_Shering_Analysis/blob/main/Submission/dashboard/logo.png?raw=true')
     
