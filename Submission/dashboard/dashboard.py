@@ -33,14 +33,20 @@ with st.sidebar:
     
     st.image('https://github.com/imanuelsteven/Bike_Shering_Analysis/blob/main/Submission/dashboard/logo.png?raw=true')
     
-    value = st.slider(
-        label='Select a range of values',
-        min_value=0, max_value=100, value=(0, 100), key='sidebar_slider'
+   if st.checkbox("Display Dataset"):
+        st.subheader("Dataset")
+        st.write(all_data)
+    
+    
+    st.title ('Made by:')
+    st.write(
+        """ 
+        **Imanuel Steven**\n
+        Dicoding ID: **Imanuelzteven**\n
+        Email: **tugasstevengraciano@gmail.com**
+        """
     )
-    st.write('Values:', value)
 
-# Creating columns in the main page
-col1, col2, col3 = st.columns([2, 1, 1])
 
 
 
