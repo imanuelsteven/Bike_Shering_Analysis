@@ -52,13 +52,13 @@ pip install numpy pandas matplotlib seaborn jupyter streamlit
 Streamlit Cloud : [Bike_Rent Dashboard](https://bikesheringsteven.streamlit.app/)
 
 ## Streamlit Cloud Dashboard Screenshot
-![alt text](https://github.com/restuwaisnawa/Dicoding-Data-Analyst-Project---Bike-Sharing/blob/main/cloud%20dashboard%20screenshots/cloud_dashboard_screenshot_1.png)
+![alt text](https://github.com/imanuelsteven/Bike_Shering_Analysis/blob/main/Screenhoot/Dashboard1.png?raw=true)
 
-![alt text](https://github.com/restuwaisnawa/Dicoding-Data-Analyst-Project---Bike-Sharing/blob/main/cloud%20dashboard%20screenshots/cloud_dashboard_screenshot_2.png)
+![alt text](https://github.com/imanuelsteven/Bike_Shering_Analysis/blob/main/Screenhoot/Dashboard2.png?raw=true)
 
-![alt text](https://github.com/restuwaisnawa/Dicoding-Data-Analyst-Project---Bike-Sharing/blob/main/cloud%20dashboard%20screenshots/cloud_dashboard_screenshot_3.png)
+![alt text](https://github.com/imanuelsteven/Bike_Shering_Analysis/blob/main/Screenhoot/Dashboard3.png?raw=true)
 
-![alt text](https://github.com/restuwaisnawa/Dicoding-Data-Analyst-Project---Bike-Sharing/blob/main/cloud%20dashboard%20screenshots/cloud_dashboard_screenshot_4.png)
+![alt text](https://github.com/imanuelsteven/Bike_Shering_Analysis/blob/main/Screenhoot/Dashboard4.png?raw=true)
+![alt text](https://github.com/imanuelsteven/Bike_Shering_Analysis/blob/main/Screenhoot/Dashboard5.png?raw=true)
+![alt text](https://github.com/imanuelsteven/Bike_Shering_Analysis/blob/main/Screenhoot/Dashboard6.png?raw=true)
 
-## Submission Grade
-![alt text](https://github.com/restuwaisnawa/Dicoding-Data-Analyst-Project---Bike-Sharing/blob/main/cloud%20dashboard%20screenshots/submission%20grade.png)
