@@ -31,15 +31,7 @@ import streamlit as st
 with st.sidebar:
     st.markdown("<h1 style='text-align: center;'>Dashboard</h1>", unsafe_allow_html=True)  # Centered and larger header
     
-    st.markdown(
-        """
-        <div style="text-align: center;">
-            <img src='https://github.com/imanuelsteven/Bike_Shering_Analysis/blob/main/Submission/dashboard/logo.png?raw=true' 
-            style='width: 200px;'>
-        </div>
-        """, 
-        unsafe_allow_html=True
-    )
+    st.image('https://github.com/imanuelsteven/Bike_Shering_Analysis/blob/main/Submission/dashboard/logo.png?raw=true')
     
     value = st.slider(
         label='Select a range of values',
