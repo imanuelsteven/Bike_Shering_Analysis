@@ -33,12 +33,13 @@ with st.sidebar:
     
     st.image('https://github.com/imanuelsteven/Bike_Shering_Analysis/blob/main/Submission/dashboard/logo.png?raw=true')
     
-   if st.checkbox("Display Dataset"):
+    # Display Dataset Checkbox
+    if st.checkbox("Display Dataset"):
         st.subheader("Dataset")
-        st.write(all_data)
+        st.write(all_data)  # Assumes 'all_data' is predefined with your dataset
     
-    
-    st.title ('Made by:')
+    # Author Info
+    st.title('Made by:')
     st.write(
         """ 
         **Imanuel Steven**\n
