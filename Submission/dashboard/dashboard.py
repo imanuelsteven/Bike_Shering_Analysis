@@ -5,7 +5,7 @@ import seaborn as sns
 import streamlit as st
 
 # Mengimpor data
-all_data = pd.read_csv('C:/Users/steven/Python/python/Bike_Dataset/hour_main.csv')
+all_data = pd.read_csv('https://github.com/imanuelsteven/Bike_Shering_Analysis/blob/main/Submission/dashboard/hour_main.csv')
 
 # Mengonversi kolom tanggal menjadi datetime dan menyortir data
 datetime_columns = ['date']
