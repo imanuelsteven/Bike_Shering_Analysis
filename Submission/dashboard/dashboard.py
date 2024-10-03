@@ -25,17 +25,31 @@ def create_month_recap(df):
 st.title('Analisis Data Bike Sharing: Mengungkap Tren Bersepeda \U0001F6B2')
 st.markdown("---")
 
+import streamlit as st
+
+# Sidebar components with header and centered image
 with st.sidebar:
-    st.header('Dashboard')
-    st.image('https://github.com/imanuelsteven/Bike_Shering_Analysis/blob/main/Submission/dashboard/logo.png?raw=true')
+    st.markdown("<h1 style='text-align: center;'>Dashboard</h1>", unsafe_allow_html=True)  # Centered and larger header
+    
+    st.markdown(
+        """
+        <div style="text-align: center;">
+            <img src='https://github.com/imanuelsteven/Bike_Shering_Analysis/blob/main/Submission/dashboard/logo.png?raw=true' 
+            style='width: 200px;'>
+        </div>
+        """, 
+        unsafe_allow_html=True
+    )
     
     value = st.slider(
         label='Select a range of values',
-        min_value=0, max_value=100, value=(0, 100), key='sidebar slider'
+        min_value=0, max_value=100, value=(0, 100), key='sidebar_slider'
     )
     st.write('Values:', value)
 
+# Creating columns in the main page
 col1, col2, col3 = st.columns([2, 1, 1])
+
 
 
 # Menggambar grafik rekap persewaan sepeda per bulan
