@@ -26,7 +26,7 @@ st.title('Analisis Data Bike Sharing: Mengungkap Tren Bersepeda \U0001F6B2')
 st.markdown("---")
 
 with st.sidebar:
-    st.text('Ini merupakan sidebar')
+    st.image('https://github.com/imanuelsteven/Bike_Shering_Analysis/blob/main/Submission/dashboard/logo.png?raw=true')
     
     value = st.slider(
         label='Select a range of values',
