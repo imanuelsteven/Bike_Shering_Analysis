@@ -1,11 +1,15 @@
 
-# Dicoding Data Analyst Project - Bike Sharing
-The "Dicoding Data Analyst Project - Bike Sharing" is a course completion project aimed at analyzing bike sharing dataset using Python. It seeks to provide insights for optimizing bike-sharing services and underscores the value of data analysis in improving operational efficiency and customer experience while inspiring others to explore this field.
+# Dicoding Belajar Analisis Data dengan Python 
+# Kaggle : Bike Shering
 
-## File Structures
+Proyek ini bertujuan untuk menganalisis dataset dari Kaggle dengan judul **Bike Sharing**, di mana dataset ini membahas tentang pola penyewaan sepeda berdasarkan berbagai faktor, seperti cuaca, musim, waktu dalam sehari, serta data penggunaan oleh penyewa. Analisis ini akan membantu untuk memahami tren penyewaan sepeda, seperti waktu penyewaan terbanyak, cuaca yang mendukung aktivitas penyewaan, dan musim dengan permintaan tertinggi.
+
+Hasil dari analisis ini diharapkan dapat memberikan wawasan yang berguna bagi perusahaan penyewaan sepeda untuk mengoptimalkan strategi bisnis, merencanakan promosi, dan mengelola layanan sesuai dengan prediksi permintaan penyewaan berdasarkan faktor-faktor yang telah dianalisis.
+
+
+## Struktur File
 ```
-.
-├── cloud dashboard screenshots
+Submission
 ├── dashboard
 │   ├── dashboard.py
 │   └── main_data.csv
@@ -19,7 +23,7 @@ The "Dicoding Data Analyst Project - Bike Sharing" is a course completion projec
 ```
 
 ## Project Dataset
-[Bike Sharing Dataset](https://drive.google.com/file/d/1RaBmV6Q6FYWU4HWZs80Suqd7KQC34diQ/view?usp=sharing)
+[Bike Sharing Dataset](https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset)
 
 ## Setup Environtment
 - Install Visual Studio Code or any other source code editor
@@ -32,7 +36,7 @@ pip install numpy pandas matplotlib seaborn jupyter streamlit
 ## Run Streamlit Dashboard app
 1. Clone this repository
    ```
-   git clone https://github.com/restuwaisnawa/Dicoding-Data-Analyst-Project---Bike-Sharing
+   git clone https://github.com/imanuelsteven/Bike_Shering_Analysis.git
    ```
 
 2. Move to dashboard directory
@@ -44,7 +48,7 @@ pip install numpy pandas matplotlib seaborn jupyter streamlit
    streamlit run dashboard.py
    ```
 ## Streamlit Cloud :
-Streamlit Cloud : [GoBike Dashboard](https://gobike-cloud-dashboard-restuwaisnawa.streamlit.app/)
+Streamlit Cloud : [Bike_Rent Dashboard](https://bikesheringsteven.streamlit.app/)
 
 ## Streamlit Cloud Dashboard Screenshot
 ![alt text](https://github.com/restuwaisnawa/Dicoding-Data-Analyst-Project---Bike-Sharing/blob/main/cloud%20dashboard%20screenshots/cloud_dashboard_screenshot_1.png)
