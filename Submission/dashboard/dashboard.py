@@ -387,10 +387,10 @@ def plot_rfm_analysis(hour_df):
 
 
 
-st.header('B. Demografi Pelanggan Casual dan Registered')
+st.header('B. Demografi Penyewa Casual dan Registered')
 
 # Sub-header untuk perbandingan total pengguna Casual dan Registered
-st.subheader('1. Total Pengguna Casual vs Registered')
+st.subheader('1. Total Penyewa Casual vs Registered')
 plot_casual_vs_registered(all_data)
 
 
@@ -406,7 +406,7 @@ with st.expander("Kesimpulan"):
 
 
 # Sub-header untuk jumlah pengguna Casual vs Registered berdasarkan tahun
-st.subheader('2. Pengguna Casual vs Registered Berdasarkan Tahun')
+st.subheader('2. Penyewa Casual vs Registered Berdasarkan Tahun')
 plot_casual_vs_registered_by_year(all_data)
 
 # Menambahkan expander dengan kesimpulan singkat
@@ -418,7 +418,7 @@ with st.expander("Kesimpulan"):
     """)
 
 
-st.header('C.Analisis Total Penyewaan Sepeda Berdasarkan Musim dan Cuaca')
+st.header('C.Analisis Total Persewaan Sepeda Berdasarkan Musim dan Cuaca')
 st.subheader('1. Profil Pelanggan Berdasarkan Musim')
 plot_sewa_musim(all_data)
 # Menambahkan expander
@@ -460,8 +460,8 @@ with st.expander("Kesimpulan"):
     """)
 
 
-st.header('D. Trend Penyewaan Sepeda Berdasarkan Hari dan Jam')
-st.subheader('3. Trend Penyewaan Berdasarkan Hari')
+st.header('D. Trend Persewaan Sepeda Berdasarkan Hari dan Jam')
+st.subheader('3. Trend Persewaan Berdasarkan Hari')
 plot_total_bike_rentals_by_weekday(all_data)
 
 with st.expander("Kesimpulan"):
@@ -472,7 +472,7 @@ with st.expander("Kesimpulan"):
     """)
 
 
-st.subheader('3. Trend Penyewaan Berdasarkan Jam (Peak Hour)')
+st.subheader('3. Trend Persewaan Berdasarkan Jam (Peak Hour)')
 plot_total_bike_rentals_by_hour(all_data)
 with st.expander("Kesimpulan"):
     st.markdown("""
