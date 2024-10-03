@@ -10,6 +10,7 @@ Hasil dari analisis ini diharapkan dapat memberikan wawasan yang berguna bagi pe
 ## Struktur File
 ```
 Submission
+├── Screenshoot
 ├── dashboard
 │   ├── dashboard.py
 │   └── main_data.csv
